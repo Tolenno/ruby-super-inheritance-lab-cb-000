@@ -6,6 +6,6 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    100.times.collect {super}
+    100.times {super}
   end
 end
